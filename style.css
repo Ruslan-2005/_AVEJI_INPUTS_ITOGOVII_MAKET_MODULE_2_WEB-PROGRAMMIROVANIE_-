@@ -1,0 +1,121 @@
+.inputs,
+.inputs * {
+  box-sizing: border-box;
+}
+.inputs {
+  background: #ffffff;
+  height: 486px;
+  position: relative;
+  overflow: hidden;
+}
+._1-web {
+  color: var(--black-100, #101828);
+  text-align: left;
+  font-family: var(--h1-web-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--h1-web-font-size, 50px);
+  line-height: var(--h1-web-line-height, 60px);
+  font-weight: var(--h1-web-font-weight, 500);
+  position: absolute;
+  right: 83.02%;
+  left: 1.37%;
+  width: 15.61%;
+  bottom: 82.3%;
+  top: 5.35%;
+  height: 12.35%;
+}
+.input {
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: #9747ff;
+  border-width: 1px;
+  width: 578px;
+  height: 167px;
+  position: absolute;
+  left: 24px;
+  top: 118px;
+  overflow: hidden;
+}
+.state-default {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 562px;
+  height: 31px;
+  position: relative;
+}
+.div {
+  color: var(--text-main, #212529);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.border {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--text-main, #212529);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.state-focus {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 562px;
+  height: 31px;
+  position: relative;
+}
+.border2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--accent-main, #ddd7c0);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.state-error {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 562px;
+  height: 31px;
+  position: relative;
+}
+.border3 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--form-error, #e13a3a);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.state-success {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 562px;
+  height: 31px;
+  position: relative;
+}
+.border4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--form-success, #f9c67b);
+  border-width: 1px 0 0 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
